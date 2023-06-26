@@ -69,6 +69,14 @@ button.btn{
     cursor: pointer;
 }
 
+span{
+    font-family: var(--Abel);
+}
+
+.container{
+    margin: 0 5vw;
+}
+
 /*---------------Global Classes--------------- */
 
 /*---------------navbar--------------- */
@@ -184,6 +192,68 @@ main .site-title .btn:hover{
 
 /*Site title*/
 
+
+/* ----------Blog Carousel ---------------- */
+
+main .blog {
+    background: url('../assets/Abract01.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+    width: 100%;
+    background-size: 60%;
+}
+
+main .blog .blog-post{
+    padding-top: 6rem;
+}
+
+main .blog-post .blog-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin: 3rem 3rem;
+    box-shadow: 0 15px 20px rgba(0,0,0,0.2);
+}
+
+main .blog-context .blog-title{
+    padding: 2rem 0rem;
+}
+
+main .blog-content .btn-blog{
+    padding: .7rem 2rem;
+    background: var(--sky);
+    margin: .5rem;
+}
+
+main .blog-content span{
+    display: block;
+}
+
+section .container .owl-nav{
+    position:absolute;
+    top: 0%;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.owl-nav .owl-prev .owl-nav-prev,
+.owl-nav .owl-next .owl-nav-next{
+    color: red;
+    background: transparent;
+    font-size: 2rem;
+}
+
+.owl-theme .owl-nav[class*='owl-']:hover{
+    background: transparent;
+    color: var(--midnight);
+}
+
+
+
+
+/* ----------Blog Carousel ---------------- */
 
 /*Main Content*/
 
