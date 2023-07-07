@@ -1,2 +1,2 @@
 ## blogger-website
-# This is the complete responsive blooger website built using html and css
+# This is the complete responsive blogger website built using html and css
